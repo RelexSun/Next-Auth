@@ -1,6 +1,6 @@
 "use server";
 
-import bycrypt from "bcrypt";
+import bycrypt from "bcryptjs";
 import { RegisterSchema } from "@/schemas";
 import * as z from "zod";
 
